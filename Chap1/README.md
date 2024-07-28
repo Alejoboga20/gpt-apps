@@ -20,3 +20,13 @@ Transformers solved the problem of keeping the context of a word in a sentence (
 Unlike the recurrent architecture, transformers also have the advantage of being easily parallelized. This means the Transformer architecture can process multiple parts of the input text simultaneously rather than sequentially.
 
 ![alt text](image-1.png)
+
+### Demystifying the Tokenization and Prediction Steps in GPT Models
+
+LLMs models use probability to predict the next word in a sentence. The model is trained on a large dataset of text sequences. The model learns the probability of each word in the vocabulary given the context of the previous words in the sequence.
+
+![alt text](image-2.png)
+
+### AI Hallucinations
+
+AI Hallucionations are a phenomenon where the model generates text that is coherent but not grounded in reality. This can happen when the model is asked to generate text beyond its training data or when it is given a prompt that leads it to generate text that is not factually accurate.
